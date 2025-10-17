@@ -3,12 +3,11 @@
 <!-- Shields/Logos -->
 [![License][license-shield]][license-url]
 [![Issues][issues-shield]][issues-url]
-[![Discord][discord-shield]][discord-url]
 
 <!-- Project Logo -->
 <p align="center">
   <a href="https://github.com/sebanc/brunch" title="Brunch">
-   <img src="./Images/decon_icon-512.png" width="128px" alt="Logo"/>
+   <img src="./Images/chrome.png" width="128px" alt="Logo"/>
   </a>
 </p>
 <h1 align="center">ChromeOS on USB-drive</h1>
