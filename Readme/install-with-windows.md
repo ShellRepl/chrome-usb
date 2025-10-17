@@ -3,14 +3,13 @@
 <!-- Shields/Logos -->
 [![License][license-shield]][license-url]
 [![Issues][issues-shield]][issues-url]
-[![Discord][discord-shield]][discord-url]
 <!-- Project Logo -->
 <p align="center">
   <a href="https://github.com/sebanc/brunch" title="Brunch">
-   <img src="../Images/terminal_icon-512.png" width="128px" alt="Logo"/>
+   <img src="../Images/chrome.png" width="128px" alt="Logo"/>
   </a>
 </p>
-<h1 align="center">Install Brunch with Windows</h1>
+<h1 align="center">Install ChromeOS using Brunch with Windows</h1>
 
 <!-- Installation Guides -->
 # USB installations
