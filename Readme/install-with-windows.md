@@ -58,25 +58,21 @@ Before continuing, you will need a linux distro installed from the Microsoft Sto
   * The linux terminal is Case Sensitive, be mindful of capital letters.
 
 ```cd /mnt/c/Users/username/Downloads```
-  
-6. Extract the Brunch archive using `tar`
-  * Replace `brunch_filename.tar.gz` with the file's actual filename.
 
-```tar zxvf brunch_filename.tar.gz```
-  
-7. Extract the ChromeOS recovery using `unzip`
-  * Replace `chromeos_filename.bin.zip` with the file's actual filename.
+or
 
-```unzip chromeos_filename.bin.zip```
+```cd /mnt/c/chromeos```
+
+You can unzip the tar archive using WinRAR, but if you are advanced to the Linux terminal, you can use tar.
 
 Once completed, you will have 4 new files from the brunch archive, and a recovery bin that we will use in the next step.
 
 ### Install Brunch
 
 8. Once you've got your files ready, you're ready to install Brunch.
-  * As before, replace `chromeos_filename.bin` with the bin file's actual filename.
+  * As before, replace `chromeos.bin` with the bin file's actual filename.
 
-```sudo bash chromeos-install.sh -src chromeos_filename.bin -dst chromeos.img```
+```sudo bash chromeos-install.sh -src chromeos.bin -dst chromeos.img```
 
 The script will ask for confirmation. If you're ready to install, type `yes` into the prompt.
 
