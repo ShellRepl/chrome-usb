@@ -11,27 +11,15 @@
    <img src="./Images/decon_icon-512.png" width="128px" alt="Logo"/>
   </a>
 </p>
-<h1 align="center">Brunch Framework</h1>
-
-<!-- Special Thanks -->
-
-## Special Thanks
-
-First of all, thanks goes to [Project Croissant][croissant], the [swtpm][swtpm] maintainer, the [Linux-Surface crew][linux-surface] and the [Chromebrew framework][chromebrew] for their work which was actively used when creating this project.
+<h1 align="center">ChromeOS on USB-drive</h1>
 
 <!-- About This Project -->
 ## About This Project
 
 The purpose of the Brunch framework is to create a generic x86_64 ChromeOS image from an official recovery image. To do so, it uses a 1GB ROOTC partition (containing a custom kernel, an initramfs, the swtpm binaries, userspace patches and config files) and a specific EFI partition to boot from it.
 
-**Warning: Brunch is not the intended way for ChromeOS to work, at some point ChromeOS could potentially become incompatible with Brunch and delete data unexpectedly (even on non-ChromeOS partitions). By installing Brunch you agree to take those risks and I cannot be held responsible for anything bad that would happen to your device including data loss.
-It is therefore highly recommended to only use this framework on a device which does not contain any sensitive data and to keep data synced with a cloud service.**
-
 <!-- Supported Hardware -->
 ## Supported Hardware
-
-Hardware support is highly dependent on the general Linux kernel hardware compatibility. As such only Linux supported hardware will work and the same specific kernel command line options recommended for your device should be passed through the Grub bootloader (see "Modify the Grub bootloader" section). Some features such as camera, microphone and touchpad may not work or may require troubleshooting to get working.
-
 
 ✔ Base Requirements:
 - x86_64 based computer with UEFI boot support.
@@ -71,14 +59,11 @@ Once you have identified the recovery image suitable for your CPU, follow the in
 
 ### Manual install instructions
 
-### [![Install with Linux][linux-img]][linux-guide]  [Install with Linux][linux-guide]
 ### [![Install with Windows][windows-img]][windows-guide]  [Install with Windows][windows-guide]
 
 ## Troubleshooting and Support
 
 In case you run into issues while installing or using Brunch, you can find support on Discord:
-
-[![Discord][discord-shield]][discord-url]
 
 Additional troubleshooting and support tips can be found at the following page:
 
