@@ -15,9 +15,6 @@
 # USB installations
 This guide is for installing Brunch to a USB (or other disk) using Windows.
 
-<details>
-  <summary>Click to open Brunch USB guide</summary>
-
 ### Requirements
 - Administrator access.
 - Target Disk/USB must be 16 GB minimum.
