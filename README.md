@@ -46,13 +46,7 @@ This guide has been split into seperate sections, please follow one of the links
 
 Linuxloops is a tool that allows the installation of Brunch with a GUI.
 
-First, identify the recovery image suitable for your CPU:  
-#### Intel
-* 8th gen & 9th gen: "[shyvana][recovery-shyvana]" for Intel / "[bobba][recovery-bobba]" for Celeron.
-* 10th gen: "[jinlon][recovery-jinlon]".
-* 11th gen & above: "[voxel][recovery-voxel]".
-#### AMD
-* Ryzen: "[gumboz][recovery-gumboz]".
+First, identify the recovery image suitable for your CPU using [cros.tech][Cros.tech]. Find your CPU Model (ex. Intel Core i3-10110U), and google "Chromebook with ```your cpu model``` cpu", and select a chromebook you like and enter it in [cros.tech][cros.tech], and download the matching to the Brunch version (ex. you downloaded recovery image with ChromeOS 139, so you need to download Brunch r139), or you will get the cryptohome error. Also clear TPM in BIOS (optional) and disable secureboot (required)
   
 Once you have identified the recovery image suitable for your CPU, follow the instructions in the [linuxloops][linuxloops] repository Readme.
 
